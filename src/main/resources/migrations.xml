@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <changeSet id="001" author="vasyanova">
+        <insert tableName="subject">
+            <column name="id" value="1"/>
+            <column name="name" value="Конструирование програмного обеспечения"/>
+            <column name="semester" value="5"/>
+            <column name="icon" value="KPOIcon"/>
+        </insert>
+        <insert tableName="subject">
+            <column name="id" value="2"/>
+            <column name="name" value="Основы машинного обучения"/>
+            <column name="semester" value="5"/>
+            <column name="icon" value="OMOIcon"/>
+        </insert>
+        <insert tableName="subject">
+            <column name="id" value="3"/>
+            <column name="name" value="Проектирование и архитектура программных систем"/>
+            <column name="semester" value="5"/>
+            <column name="icon" value="PIAPSIcon"/>
+        </insert>
+        <insert tableName="subject">
+            <column name="id" value="4"/>
+            <column name="name" value="Разработка и анализ требований"/>
+            <column name="semester" value="5"/>
+            <column name="icon" value="RIATIcon"/>
+        </insert>
+        <insert tableName="subject">
+            <column name="id" value="5"/>
+            <column name="name" value="Теория автоматов и формальных языков"/>
+            <column name="semester" value="5"/>
+            <column name="icon" value="TAIFYIcon"/>
+        </insert>
+        <insert tableName="subject">
+            <column name="id" value="6"/>
+            <column name="name" value="Теория систем и системный анализ"/>
+            <column name="semester" value="5"/>
+            <column name="icon" value="TSISAIcon"/>
+        </insert>
+        <insert tableName="subject">
+            <column name="id" value="7"/>
+            <column name="name" value="Тестирование программного обеспечения"/>
+            <column name="semester" value="5"/>
+            <column name="icon" value="TPOIcon"/>
+        </insert>
+        <insert tableName="subject">
+            <column name="id" value="8"/>
+            <column name="name" value="Философия"/>
+            <column name="semester" value="5"/>
+            <column name="icon" value="FIcon"/>
+        </insert>
+        <insert tableName="subject">
+            <column name="id" value="9"/>
+            <column name="name" value="Case-технологии"/>
+            <column name="semester" value="6"/>
+            <column name="icon" value="CTIcon"/>
+        </insert>
+        <insert tableName="subject">
+            <column name="id" value="10"/>
+            <column name="name" value="Базы данных"/>
+            <column name="semester" value="6"/>
+            <column name="icon" value="BDIcon"/>
+        </insert>
+        <insert tableName="subject">
+            <column name="id" value="11"/>
+            <column name="name" value="Безопасность жизнедеятельности"/>
+            <column name="semester" value="6"/>
+            <column name="icon" value="BJDIcon"/>
+        </insert>
+        <insert tableName="subject">
+            <column name="id" value="12"/>
+            <column name="name" value="Введение в функциональное и логическое программирование"/>
+            <column name="semester" value="6"/>
+            <column name="icon" value="VFLIcon"/>
+        </insert>
+        <insert tableName="subject">
+            <column name="id" value="13"/>
+            <column name="name" value="Геоинформационные системы"/>
+            <column name="semester" value="6"/>
+            <column name="icon" value="GSIcon"/>
+        </insert>
+        <insert tableName="subject">
+            <column name="id" value="14"/>
+            <column name="name" value="Инновационная экономика и технологическое предпринимательство"/>
+            <column name="semester" value="6"/>
+            <column name="icon" value="IATIcon"/>
+        </insert>
+        <insert tableName="subject">
+            <column name="id" value="15"/>
+            <column name="name" value="Разработка интернет приложений"/>
+            <column name="semester" value="6"/>
+            <column name="icon" value="RIPIcon"/>
+        </insert>
+        <insert tableName="subject">
+            <column name="id" value="16"/>
+            <column name="name" value="Теория систем и системный анализ"/>
+            <column name="semester" value="6"/>
+            <column name="icon" value="TSISAIcon"/>
+        </insert>
+    </changeSet>
+
+    <changeSet id="002" author="vasyanova">
+        <insert tableName="roles">
+            <column name="id" value="1"/>
+            <column name="name" value="STUDENT"/>
+        </insert>
+        <insert tableName="roles">
+            <column name="id" value="2"/>
+            <column name="name" value="TEACHER"/>
+        </insert>
+        <insert tableName="roles">
+            <column name="id" value="3"/>
+            <column name="name" value="ADMIN"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>
